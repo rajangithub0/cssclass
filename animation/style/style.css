@@ -1,0 +1,38 @@
+* {
+  background-color: aquamarine;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  background: darkblue;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background: red;
+  /* transition: transform 2s ease-in; */
+  /* transition: all 2s ease-in; */
+  animation: round 2s ease-in backwards infinite alternate;
+}
+.container:hover > .child {
+  /* background-color: yellow;
+  transform: translateX(500px); */
+  /* animation: round 2s ease-in backwards infinite alternate; */
+  /* animation-direction: alternate; */
+  animation-play-state: paused;
+}
+@keyframes round {
+  0% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateY(500%);
+  }
+  75% {
+    transform: translateX(500%) translateY(500%);
+  }
+  100% {
+    transform: translateX(500%);
+  }
+}

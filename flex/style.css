@@ -1,0 +1,40 @@
+.container {
+  background-color: antiquewhite;
+  padding: 15px;
+  display: flex;
+  height: 700px;
+  /* flex-direction: column-reverse ; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap-reverse; */
+  /* justify-content: space-evenly; */
+  align-items: stretch;
+  align-content: center;
+  z-index: 2;
+}
+
+.Item {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.second {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.third {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}

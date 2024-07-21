@@ -1,0 +1,19 @@
+:root {
+  --backgroundColor: black;
+  --textcolor: blue;
+}
+
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--backgroundColor);
+  color: var(--textcolor);
+  font-family: var(--Gridfont);
+}
+
+.grid-item {
+  padding: 20px 15px;
+  background: lightcyan;
+  border: solid 1px var(--textcolor);
+}

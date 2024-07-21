@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: rgb(176, 170, 170);
+}
+ img{
+    /* float: right; */
+    float: left;
+    /* float: none; */
+ }

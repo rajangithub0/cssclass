@@ -1,0 +1,19 @@
+/* combinators
+space,>,+,~ */
+
+/* .container p {
+  color: yellow;
+  font-size: 25px;
+} */
+
+/* .container > .indside-container > p {
+  color: yellow;
+} */
+
+/* li + li {
+  color: red;
+} */
+
+ul ~ p {
+  color: red;
+}

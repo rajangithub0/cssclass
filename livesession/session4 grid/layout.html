@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .grid-container{
+        display :grid;
+        grid-template-columns: 22% 55% 22%;
+        gap: 10px;
+    }
+    .header{
+        height: 100px;
+        grid-column: 1/4;
+        background-color: aquamarine;
+    }
+
+    .left-side{
+        height: 500px;
+        background-color: chocolate;
+    }
+
+    .main{
+        height: 500px;
+        background-color: brown;
+    }
+
+    .right-side{
+        height: 500px;
+        background-color: coral;
+    }
+
+    .footer{
+        height: 50px;
+        grid-column: 1/4;
+        background-color: seagreen;
+    }
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header"></div>
+        <div class="left-side"></div>
+        <div class="main"></div>
+        <div class="right-side"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

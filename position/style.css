@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  background-color: rgb(191, 226, 237);
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background: rgb(137, 137, 240);
+  margin: 40px 0 0 40px;
+  /* position: relative; */
+}
+
+.item > div {
+  width: 200px;
+  height: 200px;
+  background: rgb(3, 3, 51);
+  margin: 40px 0 0 0;
+  position: relative;
+  /* top: 20px;
+  left: 30px;
+   */
+  right: 40px;
+  bottom: 30px;
+}
+
+.item2 {
+  width: 200px;
+  height: 200px;
+  background: rgb(137, 137, 137);
+  margin: 40px 0 0 40px;
+  position: relative;
+}
+
+.item2 > div {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+}
+
+.item3 {
+  width: 200px;
+  height: 200px;
+  background: rgb(73, 5, 5);
+  /* position: fixed;
+  top: 0;
+  left: 20px; */
+}
+
+.item4 {
+  width: 200px;
+  height: 200px;
+  background: rgb(32, 220, 11);
+  position: sticky;
+  margin: 0 10px;
+  top: 20px;
+  z-index: 100;
+}

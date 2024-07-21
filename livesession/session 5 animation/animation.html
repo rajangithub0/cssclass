@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            /* background-color: rgb(213, 50, 50); */
+            animation-name: first;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        /* @keyframes first{
+            from {background-color: blue;}
+            to{background-color: bisque;}
+        } */
+
+        /* @keyframes first{
+            0%{background-color: magenta;}
+            25%{background-color: brown;}
+            50%{background-color: purple;}
+            75%{background-color: blueviolet;}
+            100%{background-color: darkgreen;}
+        } */
+         
+        @keyframes first{
+            0%{background-color: cadetblue; top:0px;left:0px}
+            25%{background-color: blueviolet; top: 500px; left:0px}
+            50%{background-color: brown; top:500px; left:500px}
+            75%{background-color: crimson;top: 0px; left:500px}
+            100%{background-color: darkred; top: 0px;left: 0px;}
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+
+</body>
+</html>
